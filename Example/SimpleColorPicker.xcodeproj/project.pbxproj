@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3961FA0E4BBC21DE8294D154 /* Pods_SimpleColorPicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529517D8D15E8726080B5BD3 /* Pods_SimpleColorPicker_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4D2F1EE71B1FDDEB003254B9 /* SimpleColorPicker.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4D2F1EE61B1FDDEB003254B9 /* SimpleColorPicker.gif */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		0292CF17EB1C1EFA464C7EB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		449FF135B769B1A0CFA5132F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4D2F1EE61B1FDDEB003254B9 /* SimpleColorPicker.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SimpleColorPicker.gif; sourceTree = "<group>"; };
 		522589F03F3993F68AD3B56F /* Pods_SimpleColorPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleColorPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		529517D8D15E8726080B5BD3 /* Pods_SimpleColorPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleColorPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SimpleColorPicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleColorPicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +180,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				4D2F1EE61B1FDDEB003254B9 /* SimpleColorPicker.gif */,
 				C19B2FC27ED5E04E98A1220E /* SimpleColorPicker.podspec */,
 				0292CF17EB1C1EFA464C7EB0 /* README.md */,
 				449FF135B769B1A0CFA5132F /* LICENSE */,
@@ -283,6 +286,7 @@
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				4D2F1EE71B1FDDEB003254B9 /* SimpleColorPicker.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
