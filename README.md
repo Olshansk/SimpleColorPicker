@@ -24,7 +24,7 @@ pod "SimpleColorPicker"
 
 ### Import
 ```objective-c
-#import "SimpleColorPicker.h"
+#import "SimpleColorPickerView.h"
 ```
 
 ### Initialize
