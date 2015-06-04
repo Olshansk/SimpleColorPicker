@@ -1,0 +1,1012 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0854E8B948BB8842BD982A63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFD26D89D3AB50253E0A2EA /* Foundation.framework */; };
+		1BD319C7111499463794A011 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06056978484525DFD00C3E59 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-dummy.m */; };
+		1E65B323E640EF7A868395C0 /* SimpleColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8826590239F4BE413F46737 /* SimpleColorPickerView.m */; };
+		579ADF15D14A82C9A0E9F7C7 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 134633E4C25E83860CB6F062 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		610E8873225D2C1523E121D0 /* Pods-SimpleColorPicker_Example-SimpleColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8F1F2F4B8329070E79E9A3 /* Pods-SimpleColorPicker_Example-SimpleColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		622A16FBA19C36D8DC460DBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFD26D89D3AB50253E0A2EA /* Foundation.framework */; };
+		6D86E8342CB9244FA14E2030 /* Pods-SimpleColorPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E0C91AF780D9CA26F2306FC /* Pods-SimpleColorPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		708CC8E191685B22542BC792 /* Pods-SimpleColorPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6420A698FD109EDEE947FC /* Pods-SimpleColorPicker_Example-dummy.m */; };
+		78C53A6A97EB75F4496406AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFD26D89D3AB50253E0A2EA /* Foundation.framework */; };
+		7DC392305D6AD56FC59B92BE /* Pods-SimpleColorPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5EC243533FF1549B09C066 /* Pods-SimpleColorPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8601D31656B417715419196F /* SimpleColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8826590239F4BE413F46737 /* SimpleColorPickerView.m */; };
+		8F436B8DC2319F09DA56AD18 /* SimpleColorPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38DD9C96D7F176B6452255A1 /* SimpleColorPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE581AD3A8E0D1D8D6004430 /* SimpleColorPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D21D5A727F56A31D949CC73 /* SimpleColorPicker.bundle */; };
+		CF5946141DAB4E9956DD1D7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFD26D89D3AB50253E0A2EA /* Foundation.framework */; };
+		D28D51F5560F51B6D93AB7CF /* Pods-SimpleColorPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 723D2833A5291C4C14BAAEF7 /* Pods-SimpleColorPicker_Tests-dummy.m */; };
+		E2B62FA4285767DF3BE0E881 /* Pods-SimpleColorPicker_Example-SimpleColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FD3D654841EA4A43045B6A /* Pods-SimpleColorPicker_Example-SimpleColorPicker-dummy.m */; };
+		F82ACC7F9F3E411D10597060 /* SimpleColorPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5B68DA2703DCDBA5A6576493 /* SimpleColorPicker.bundle */; };
+		FC394347297C80B2D291ACFF /* SimpleColorPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38DD9C96D7F176B6452255A1 /* SimpleColorPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19FDFA9A3DEA82F1B7DD47BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9912D660E0A6AA17BE056D6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110F1D5FAC36B664946B4C59;
+			remoteInfo = "Pods-SimpleColorPicker_Example-SimpleColorPicker-SimpleColorPicker";
+		};
+		2FE9F53B1E700EFB75D3A279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9912D660E0A6AA17BE056D6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B6DFE2D5FB92BBC45BC59D;
+			remoteInfo = "Pods-SimpleColorPicker_Example-SimpleColorPicker";
+		};
+		C710DEFC74BC400A3BF5B0B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9912D660E0A6AA17BE056D6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEB31098E1B447557743C05;
+			remoteInfo = "Pods-SimpleColorPicker_Tests-SimpleColorPicker";
+		};
+		D52C8C45A61C5B215FC18FAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9912D660E0A6AA17BE056D6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE72158B91CD4F7001A0837C;
+			remoteInfo = "Pods-SimpleColorPicker_Tests-SimpleColorPicker-SimpleColorPicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06056978484525DFD00C3E59 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-SimpleColorPicker_Tests-SimpleColorPicker-dummy.m"; path = "../Pods-SimpleColorPicker_Tests-SimpleColorPicker/Pods-SimpleColorPicker_Tests-SimpleColorPicker-dummy.m"; sourceTree = "<group>"; };
+		0E0BFA0D7DC0EA67E99DA1B5 /* Pods-SimpleColorPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleColorPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E61AE35A13369CE60EE8BAA /* Pods-SimpleColorPicker_Tests-SimpleColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleColorPicker_Tests-SimpleColorPicker.xcconfig"; path = "../Pods-SimpleColorPicker_Tests-SimpleColorPicker/Pods-SimpleColorPicker_Tests-SimpleColorPicker.xcconfig"; sourceTree = "<group>"; };
+		134633E4C25E83860CB6F062 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-SimpleColorPicker_Tests-SimpleColorPicker-umbrella.h"; path = "../Pods-SimpleColorPicker_Tests-SimpleColorPicker/Pods-SimpleColorPicker_Tests-SimpleColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		13C97B7DFA67020B5446EF64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BB3E5FA39EC5EA6FBE6F87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2136DF71F91D92C19AA6358D /* SimpleColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22844ABB13BA48B9FF2FD341 /* Pods-SimpleColorPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SimpleColorPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		2C86993280EA58C76B9F6DAD /* Pods-SimpleColorPicker_Tests-SimpleColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-SimpleColorPicker_Tests-SimpleColorPicker.modulemap"; path = "../Pods-SimpleColorPicker_Tests-SimpleColorPicker/Pods-SimpleColorPicker_Tests-SimpleColorPicker.modulemap"; sourceTree = "<group>"; };
+		38DD9C96D7F176B6452255A1 /* SimpleColorPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SimpleColorPickerView.h; sourceTree = "<group>"; };
+		3E5EC243533FF1549B09C066 /* Pods-SimpleColorPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleColorPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		45255DFD904CF496A7318502 /* Pods-SimpleColorPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleColorPicker_Example-resources.sh"; sourceTree = "<group>"; };
+		4D21D5A727F56A31D949CC73 /* SimpleColorPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleColorPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E04CAB7C9BCA85F7AB0FF6 /* Pods-SimpleColorPicker_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleColorPicker_Tests-environment.h"; sourceTree = "<group>"; };
+		5B68DA2703DCDBA5A6576493 /* SimpleColorPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleColorPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		693F7D47E048FEC0E50E33F6 /* Pods-SimpleColorPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleColorPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6DA5B054CF701BE01433554D /* Pods-SimpleColorPicker_Example-SimpleColorPicker-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleColorPicker_Example-SimpleColorPicker-Private.xcconfig"; sourceTree = "<group>"; };
+		6EA7960C5468DC2F40F70744 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-SimpleColorPicker_Tests-SimpleColorPicker-prefix.pch"; path = "../Pods-SimpleColorPicker_Tests-SimpleColorPicker/Pods-SimpleColorPicker_Tests-SimpleColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		6EF964157F7D0C97DF831EFB /* Pods-SimpleColorPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleColorPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		709B552C3003BEB4FDF3D984 /* Pods-SimpleColorPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleColorPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		72328525E05FCFE3F8CE3EDC /* Pods-SimpleColorPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleColorPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		723D2833A5291C4C14BAAEF7 /* Pods-SimpleColorPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleColorPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		7A4548611C8CB710EFD79439 /* SimpleColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D37A5C25EF43B93FCA4A8F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DA86C60C4C9D1180E500A10 /* Pods_SimpleColorPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleColorPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0C91AF780D9CA26F2306FC /* Pods-SimpleColorPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleColorPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		8582A97462593FD697EF45EF /* Pods-SimpleColorPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleColorPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8829F8F4FD7634592004B566 /* Pods_SimpleColorPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleColorPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		907E7290CE7396F7D112AE68 /* Pods-SimpleColorPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleColorPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		962FA0707E76B4EA21126F56 /* Pods-SimpleColorPicker_Example-SimpleColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleColorPicker_Example-SimpleColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		9A709EC93A3DE0305A829769 /* Pods-SimpleColorPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleColorPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AE8F1F2F4B8329070E79E9A3 /* Pods-SimpleColorPicker_Example-SimpleColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleColorPicker_Example-SimpleColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		B1A149CC9B36090EECEF096F /* Pods-SimpleColorPicker_Example-SimpleColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SimpleColorPicker_Example-SimpleColorPicker.modulemap"; sourceTree = "<group>"; };
+		B5FD3D654841EA4A43045B6A /* Pods-SimpleColorPicker_Example-SimpleColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleColorPicker_Example-SimpleColorPicker-dummy.m"; sourceTree = "<group>"; };
+		B8826590239F4BE413F46737 /* SimpleColorPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SimpleColorPickerView.m; sourceTree = "<group>"; };
+		B9842842B0CE81374DB7E5A5 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BABB3E335A74B467276B6134 /* Pods-SimpleColorPicker_Example-SimpleColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleColorPicker_Example-SimpleColorPicker.xcconfig"; sourceTree = "<group>"; };
+		C45E9294E115741C8637B0BA /* Pods-SimpleColorPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SimpleColorPicker_Example.modulemap"; sourceTree = "<group>"; };
+		C552FD8EFCA3FCB32727D2FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-SimpleColorPicker_Tests-SimpleColorPicker/Info.plist"; sourceTree = "<group>"; };
+		DB685578D5EA882B6CD72602 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleColorPicker_Tests-SimpleColorPicker-Private.xcconfig"; path = "../Pods-SimpleColorPicker_Tests-SimpleColorPicker/Pods-SimpleColorPicker_Tests-SimpleColorPicker-Private.xcconfig"; sourceTree = "<group>"; };
+		DC5131250E89691F09442994 /* Pods-SimpleColorPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleColorPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DECC6F4E6D0A36A0F922DEF4 /* Pods-SimpleColorPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleColorPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E3BE72A1309E25CB78C9495F /* Pods-SimpleColorPicker_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleColorPicker_Example-environment.h"; sourceTree = "<group>"; };
+		EAFD26D89D3AB50253E0A2EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F5AF8CD83051A823299EA173 /* Pods-SimpleColorPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleColorPicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		FA6420A698FD109EDEE947FC /* Pods-SimpleColorPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleColorPicker_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B0DAD582A17C5C111AB944B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0854E8B948BB8842BD982A63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E606F53556AD4808A7470BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5946141DAB4E9956DD1D7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B390D6C89C41A5CCA970792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F50B4C6F3ED62B162E17431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B716092D288F90302E8F8EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C53A6A97EB75F4496406AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA831175D1618E05683F84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622A16FBA19C36D8DC460DBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212FAB7BA8383F669CE3B6EF /* Pods-SimpleColorPicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				13C97B7DFA67020B5446EF64 /* Info.plist */,
+				C45E9294E115741C8637B0BA /* Pods-SimpleColorPicker_Example.modulemap */,
+				72328525E05FCFE3F8CE3EDC /* Pods-SimpleColorPicker_Example-acknowledgements.markdown */,
+				0E0BFA0D7DC0EA67E99DA1B5 /* Pods-SimpleColorPicker_Example-acknowledgements.plist */,
+				FA6420A698FD109EDEE947FC /* Pods-SimpleColorPicker_Example-dummy.m */,
+				E3BE72A1309E25CB78C9495F /* Pods-SimpleColorPicker_Example-environment.h */,
+				9A709EC93A3DE0305A829769 /* Pods-SimpleColorPicker_Example-frameworks.sh */,
+				45255DFD904CF496A7318502 /* Pods-SimpleColorPicker_Example-resources.sh */,
+				7E0C91AF780D9CA26F2306FC /* Pods-SimpleColorPicker_Example-umbrella.h */,
+				709B552C3003BEB4FDF3D984 /* Pods-SimpleColorPicker_Example.debug.xcconfig */,
+				693F7D47E048FEC0E50E33F6 /* Pods-SimpleColorPicker_Example.release.xcconfig */,
+			);
+			name = "Pods-SimpleColorPicker_Example";
+			path = "Target Support Files/Pods-SimpleColorPicker_Example";
+			sourceTree = "<group>";
+		};
+		2A85F3DA3984DCB82FD5000B = {
+			isa = PBXGroup;
+			children = (
+				B9842842B0CE81374DB7E5A5 /* Podfile */,
+				D0BD258DD4663F62657FFB92 /* Development Pods */,
+				75507308704DCB9A7CF8163A /* Frameworks */,
+				B89E561F3E390560ABEDBDD5 /* Products */,
+				68938DCA3FCC8491FEE9F28A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		66F9D2899BE4978A5CACEABA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAFD26D89D3AB50253E0A2EA /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		68938DCA3FCC8491FEE9F28A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				212FAB7BA8383F669CE3B6EF /* Pods-SimpleColorPicker_Example */,
+				9308DA2886861F0270E8933A /* Pods-SimpleColorPicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7227A81AB182D67429A65CF2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				38DD9C96D7F176B6452255A1 /* SimpleColorPickerView.h */,
+				B8826590239F4BE413F46737 /* SimpleColorPickerView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		75507308704DCB9A7CF8163A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66F9D2899BE4978A5CACEABA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9308DA2886861F0270E8933A /* Pods-SimpleColorPicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7D37A5C25EF43B93FCA4A8F0 /* Info.plist */,
+				22844ABB13BA48B9FF2FD341 /* Pods-SimpleColorPicker_Tests.modulemap */,
+				8582A97462593FD697EF45EF /* Pods-SimpleColorPicker_Tests-acknowledgements.markdown */,
+				DC5131250E89691F09442994 /* Pods-SimpleColorPicker_Tests-acknowledgements.plist */,
+				723D2833A5291C4C14BAAEF7 /* Pods-SimpleColorPicker_Tests-dummy.m */,
+				55E04CAB7C9BCA85F7AB0FF6 /* Pods-SimpleColorPicker_Tests-environment.h */,
+				DECC6F4E6D0A36A0F922DEF4 /* Pods-SimpleColorPicker_Tests-frameworks.sh */,
+				F5AF8CD83051A823299EA173 /* Pods-SimpleColorPicker_Tests-resources.sh */,
+				3E5EC243533FF1549B09C066 /* Pods-SimpleColorPicker_Tests-umbrella.h */,
+				907E7290CE7396F7D112AE68 /* Pods-SimpleColorPicker_Tests.debug.xcconfig */,
+				6EF964157F7D0C97DF831EFB /* Pods-SimpleColorPicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-SimpleColorPicker_Tests";
+			path = "Target Support Files/Pods-SimpleColorPicker_Tests";
+			sourceTree = "<group>";
+		};
+		B47A0A0099353143D45C50C0 /* SimpleColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				F9B5AA5A99C1BFBD7C3EF5C5 /* Pod */,
+				DE664A2D22DD78CB1AD25A69 /* Support Files */,
+			);
+			name = SimpleColorPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B89E561F3E390560ABEDBDD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8829F8F4FD7634592004B566 /* Pods_SimpleColorPicker_Example.framework */,
+				7DA86C60C4C9D1180E500A10 /* Pods_SimpleColorPicker_Tests.framework */,
+				5B68DA2703DCDBA5A6576493 /* SimpleColorPicker.bundle */,
+				4D21D5A727F56A31D949CC73 /* SimpleColorPicker.bundle */,
+				7A4548611C8CB710EFD79439 /* SimpleColorPicker.framework */,
+				2136DF71F91D92C19AA6358D /* SimpleColorPicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0BD258DD4663F62657FFB92 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B47A0A0099353143D45C50C0 /* SimpleColorPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DE664A2D22DD78CB1AD25A69 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18BB3E5FA39EC5EA6FBE6F87 /* Info.plist */,
+				C552FD8EFCA3FCB32727D2FF /* Info.plist */,
+				B1A149CC9B36090EECEF096F /* Pods-SimpleColorPicker_Example-SimpleColorPicker.modulemap */,
+				BABB3E335A74B467276B6134 /* Pods-SimpleColorPicker_Example-SimpleColorPicker.xcconfig */,
+				6DA5B054CF701BE01433554D /* Pods-SimpleColorPicker_Example-SimpleColorPicker-Private.xcconfig */,
+				B5FD3D654841EA4A43045B6A /* Pods-SimpleColorPicker_Example-SimpleColorPicker-dummy.m */,
+				962FA0707E76B4EA21126F56 /* Pods-SimpleColorPicker_Example-SimpleColorPicker-prefix.pch */,
+				AE8F1F2F4B8329070E79E9A3 /* Pods-SimpleColorPicker_Example-SimpleColorPicker-umbrella.h */,
+				2C86993280EA58C76B9F6DAD /* Pods-SimpleColorPicker_Tests-SimpleColorPicker.modulemap */,
+				0E61AE35A13369CE60EE8BAA /* Pods-SimpleColorPicker_Tests-SimpleColorPicker.xcconfig */,
+				DB685578D5EA882B6CD72602 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-Private.xcconfig */,
+				06056978484525DFD00C3E59 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-dummy.m */,
+				6EA7960C5468DC2F40F70744 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-prefix.pch */,
+				134633E4C25E83860CB6F062 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-SimpleColorPicker_Example-SimpleColorPicker";
+			sourceTree = "<group>";
+		};
+		F9B5AA5A99C1BFBD7C3EF5C5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7227A81AB182D67429A65CF2 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DE8447F66CE260419F6672D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579ADF15D14A82C9A0E9F7C7 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-umbrella.h in Headers */,
+				FC394347297C80B2D291ACFF /* SimpleColorPickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56205E6525D6176A67DFC730 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC392305D6AD56FC59B92BE /* Pods-SimpleColorPicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AF6A0C5BAC415084BE5043 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D86E8342CB9244FA14E2030 /* Pods-SimpleColorPicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7B8AD398EB3DA281D37A89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610E8873225D2C1523E121D0 /* Pods-SimpleColorPicker_Example-SimpleColorPicker-umbrella.h in Headers */,
+				8F436B8DC2319F09DA56AD18 /* SimpleColorPickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		110F1D5FAC36B664946B4C59 /* Pods-SimpleColorPicker_Example-SimpleColorPicker-SimpleColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B605099D838A33720E22FF /* Build configuration list for PBXNativeTarget "Pods-SimpleColorPicker_Example-SimpleColorPicker-SimpleColorPicker" */;
+			buildPhases = (
+				1C4901EF1F79E78B3AC385CD /* Sources */,
+				4B390D6C89C41A5CCA970792 /* Frameworks */,
+				99D6E816FC2A9D034A7FABEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SimpleColorPicker_Example-SimpleColorPicker-SimpleColorPicker";
+			productName = "Pods-SimpleColorPicker_Example-SimpleColorPicker-SimpleColorPicker";
+			productReference = 5B68DA2703DCDBA5A6576493 /* SimpleColorPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2F0A19F64F6AD607872FACA4 /* Pods-SimpleColorPicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C91E24732BEFA03FBEF2E3 /* Build configuration list for PBXNativeTarget "Pods-SimpleColorPicker_Example" */;
+			buildPhases = (
+				9A814F9AF16732A3FD31E32F /* Sources */,
+				FEA831175D1618E05683F84E /* Frameworks */,
+				D0AF6A0C5BAC415084BE5043 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040A54D6F9A77AC079010913 /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleColorPicker_Example";
+			productName = "Pods-SimpleColorPicker_Example";
+			productReference = 8829F8F4FD7634592004B566 /* Pods_SimpleColorPicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B77AB934A45E06834EF3221 /* Pods-SimpleColorPicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24FB14B2708980537724B6F4 /* Build configuration list for PBXNativeTarget "Pods-SimpleColorPicker_Tests" */;
+			buildPhases = (
+				A1702D775DB04B62594FB76E /* Sources */,
+				9B716092D288F90302E8F8EB /* Frameworks */,
+				56205E6525D6176A67DFC730 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4AD5F6E9C62C37E1C02EBE1 /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleColorPicker_Tests";
+			productName = "Pods-SimpleColorPicker_Tests";
+			productReference = 7DA86C60C4C9D1180E500A10 /* Pods_SimpleColorPicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82B6DFE2D5FB92BBC45BC59D /* Pods-SimpleColorPicker_Example-SimpleColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D07DD51E8E4C21D3E7F484E7 /* Build configuration list for PBXNativeTarget "Pods-SimpleColorPicker_Example-SimpleColorPicker" */;
+			buildPhases = (
+				D3B26A119D32A3F71E176522 /* Sources */,
+				0B0DAD582A17C5C111AB944B /* Frameworks */,
+				78FEBFD4EA79D08237430808 /* Resources */,
+				FB7B8AD398EB3DA281D37A89 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561FCD730D66584393ED1D8B /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleColorPicker_Example-SimpleColorPicker";
+			productName = "Pods-SimpleColorPicker_Example-SimpleColorPicker";
+			productReference = 2136DF71F91D92C19AA6358D /* SimpleColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE72158B91CD4F7001A0837C /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-SimpleColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EC30B34D7A77EF476F3579 /* Build configuration list for PBXNativeTarget "Pods-SimpleColorPicker_Tests-SimpleColorPicker-SimpleColorPicker" */;
+			buildPhases = (
+				330CA24051DDD1CF408C2DB3 /* Sources */,
+				8F50B4C6F3ED62B162E17431 /* Frameworks */,
+				70EA70D7938620C541669210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SimpleColorPicker_Tests-SimpleColorPicker-SimpleColorPicker";
+			productName = "Pods-SimpleColorPicker_Tests-SimpleColorPicker-SimpleColorPicker";
+			productReference = 4D21D5A727F56A31D949CC73 /* SimpleColorPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CDEB31098E1B447557743C05 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254A4343BE42DDDFD761FA11 /* Build configuration list for PBXNativeTarget "Pods-SimpleColorPicker_Tests-SimpleColorPicker" */;
+			buildPhases = (
+				2F2C69683A719F566F4031DA /* Sources */,
+				1E606F53556AD4808A7470BE /* Frameworks */,
+				21F0C424405F79D12A6FECC7 /* Resources */,
+				0DE8447F66CE260419F6672D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D959305E4A0F9621D86CF79 /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleColorPicker_Tests-SimpleColorPicker";
+			productName = "Pods-SimpleColorPicker_Tests-SimpleColorPicker";
+			productReference = 7A4548611C8CB710EFD79439 /* SimpleColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9912D660E0A6AA17BE056D6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 7EB3A376A08D54CF73A47D79 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A85F3DA3984DCB82FD5000B;
+			productRefGroup = B89E561F3E390560ABEDBDD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F0A19F64F6AD607872FACA4 /* Pods-SimpleColorPicker_Example */,
+				82B6DFE2D5FB92BBC45BC59D /* Pods-SimpleColorPicker_Example-SimpleColorPicker */,
+				110F1D5FAC36B664946B4C59 /* Pods-SimpleColorPicker_Example-SimpleColorPicker-SimpleColorPicker */,
+				5B77AB934A45E06834EF3221 /* Pods-SimpleColorPicker_Tests */,
+				CDEB31098E1B447557743C05 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker */,
+				BE72158B91CD4F7001A0837C /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-SimpleColorPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21F0C424405F79D12A6FECC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE581AD3A8E0D1D8D6004430 /* SimpleColorPicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EA70D7938620C541669210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FEBFD4EA79D08237430808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82ACC7F9F3E411D10597060 /* SimpleColorPicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D6E816FC2A9D034A7FABEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C4901EF1F79E78B3AC385CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2C69683A719F566F4031DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD319C7111499463794A011 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-dummy.m in Sources */,
+				1E65B323E640EF7A868395C0 /* SimpleColorPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330CA24051DDD1CF408C2DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A814F9AF16732A3FD31E32F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708CC8E191685B22542BC792 /* Pods-SimpleColorPicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1702D775DB04B62594FB76E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28D51F5560F51B6D93AB7CF /* Pods-SimpleColorPicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B26A119D32A3F71E176522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B62FA4285767DF3BE0E881 /* Pods-SimpleColorPicker_Example-SimpleColorPicker-dummy.m in Sources */,
+				8601D31656B417715419196F /* SimpleColorPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040A54D6F9A77AC079010913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SimpleColorPicker_Example-SimpleColorPicker";
+			target = 82B6DFE2D5FB92BBC45BC59D /* Pods-SimpleColorPicker_Example-SimpleColorPicker */;
+			targetProxy = 2FE9F53B1E700EFB75D3A279 /* PBXContainerItemProxy */;
+		};
+		0D959305E4A0F9621D86CF79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SimpleColorPicker_Tests-SimpleColorPicker-SimpleColorPicker";
+			target = BE72158B91CD4F7001A0837C /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-SimpleColorPicker */;
+			targetProxy = D52C8C45A61C5B215FC18FAC /* PBXContainerItemProxy */;
+		};
+		561FCD730D66584393ED1D8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SimpleColorPicker_Example-SimpleColorPicker-SimpleColorPicker";
+			target = 110F1D5FAC36B664946B4C59 /* Pods-SimpleColorPicker_Example-SimpleColorPicker-SimpleColorPicker */;
+			targetProxy = 19FDFA9A3DEA82F1B7DD47BE /* PBXContainerItemProxy */;
+		};
+		C4AD5F6E9C62C37E1C02EBE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SimpleColorPicker_Tests-SimpleColorPicker";
+			target = CDEB31098E1B447557743C05 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker */;
+			targetProxy = C710DEFC74BC400A3BF5B0B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10CA6436F9E5240C77B4CA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 693F7D47E048FEC0E50E33F6 /* Pods-SimpleColorPicker_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleColorPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleColorPicker_Example/Pods-SimpleColorPicker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SimpleColorPicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23D7BD8543070F899346E81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB685578D5EA882B6CD72602 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SimpleColorPicker_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SimpleColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		28C60C1715C32EC4CFC84793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB685578D5EA882B6CD72602 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SimpleColorPicker_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SimpleColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		46816E2A4B727264F1E3425B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA5B054CF701BE01433554D /* Pods-SimpleColorPicker_Example-SimpleColorPicker-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SimpleColorPicker_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SimpleColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4775412DF28C9EB870580155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA5B054CF701BE01433554D /* Pods-SimpleColorPicker_Example-SimpleColorPicker-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SimpleColorPicker_Example-SimpleColorPicker/Pods-SimpleColorPicker_Example-SimpleColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleColorPicker_Example-SimpleColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleColorPicker_Example-SimpleColorPicker/Pods-SimpleColorPicker_Example-SimpleColorPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SimpleColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57DA0FE7193BB8A2CD7767C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA5B054CF701BE01433554D /* Pods-SimpleColorPicker_Example-SimpleColorPicker-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SimpleColorPicker_Example-SimpleColorPicker/Pods-SimpleColorPicker_Example-SimpleColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleColorPicker_Example-SimpleColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleColorPicker_Example-SimpleColorPicker/Pods-SimpleColorPicker_Example-SimpleColorPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SimpleColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6752024BFB90C3A426B49E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF964157F7D0C97DF831EFB /* Pods-SimpleColorPicker_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleColorPicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleColorPicker_Tests/Pods-SimpleColorPicker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SimpleColorPicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7259C26721A3FA690089F643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		923C30B589EC2DFBF7962A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA5B054CF701BE01433554D /* Pods-SimpleColorPicker_Example-SimpleColorPicker-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SimpleColorPicker_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SimpleColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A94BB723E771575EC5A87330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 709B552C3003BEB4FDF3D984 /* Pods-SimpleColorPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleColorPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleColorPicker_Example/Pods-SimpleColorPicker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SimpleColorPicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC47E1E3646A3C86338B2A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 907E7290CE7396F7D112AE68 /* Pods-SimpleColorPicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleColorPicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleColorPicker_Tests/Pods-SimpleColorPicker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SimpleColorPicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B9E6631FBB18E85B1D14B639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB685578D5EA882B6CD72602 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SimpleColorPicker_Tests-SimpleColorPicker/Pods-SimpleColorPicker_Tests-SimpleColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleColorPicker_Tests-SimpleColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleColorPicker_Tests-SimpleColorPicker/Pods-SimpleColorPicker_Tests-SimpleColorPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SimpleColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4091D4D9F456BFE26AF38E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB685578D5EA882B6CD72602 /* Pods-SimpleColorPicker_Tests-SimpleColorPicker-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SimpleColorPicker_Tests-SimpleColorPicker/Pods-SimpleColorPicker_Tests-SimpleColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleColorPicker_Tests-SimpleColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleColorPicker_Tests-SimpleColorPicker/Pods-SimpleColorPicker_Tests-SimpleColorPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SimpleColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6C2CF22E761970B81F51637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19C91E24732BEFA03FBEF2E3 /* Build configuration list for PBXNativeTarget "Pods-SimpleColorPicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94BB723E771575EC5A87330 /* Debug */,
+				10CA6436F9E5240C77B4CA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24FB14B2708980537724B6F4 /* Build configuration list for PBXNativeTarget "Pods-SimpleColorPicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC47E1E3646A3C86338B2A8B /* Debug */,
+				6752024BFB90C3A426B49E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254A4343BE42DDDFD761FA11 /* Build configuration list for PBXNativeTarget "Pods-SimpleColorPicker_Tests-SimpleColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4091D4D9F456BFE26AF38E3 /* Debug */,
+				B9E6631FBB18E85B1D14B639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EB3A376A08D54CF73A47D79 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C2CF22E761970B81F51637 /* Debug */,
+				7259C26721A3FA690089F643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EC30B34D7A77EF476F3579 /* Build configuration list for PBXNativeTarget "Pods-SimpleColorPicker_Tests-SimpleColorPicker-SimpleColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D7BD8543070F899346E81E /* Debug */,
+				28C60C1715C32EC4CFC84793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B605099D838A33720E22FF /* Build configuration list for PBXNativeTarget "Pods-SimpleColorPicker_Example-SimpleColorPicker-SimpleColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923C30B589EC2DFBF7962A52 /* Debug */,
+				46816E2A4B727264F1E3425B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D07DD51E8E4C21D3E7F484E7 /* Build configuration list for PBXNativeTarget "Pods-SimpleColorPicker_Example-SimpleColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DA0FE7193BB8A2CD7767C5 /* Debug */,
+				4775412DF28C9EB870580155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9912D660E0A6AA17BE056D6D /* Project object */;
+}

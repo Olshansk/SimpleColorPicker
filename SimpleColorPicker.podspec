@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SimpleColorPicker"
-  s.version          = "0.1.0"
+  s.version          = "0.0.1"
   s.summary          = "A very simple, vertical, snapchat-like, color picker for iOS."
   #s.description      = ""
   s.homepage         = "https://github.com/olshansk/SimpleColorPicker"

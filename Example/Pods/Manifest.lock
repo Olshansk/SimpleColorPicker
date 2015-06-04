@@ -1,0 +1,14 @@
+PODS:
+  - SimpleColorPicker (0.1.0)
+
+DEPENDENCIES:
+  - SimpleColorPicker (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleColorPicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SimpleColorPicker: 6207153a1cc4749469c18d7fd5b5b5090e731362
+
+COCOAPODS: 0.37.2

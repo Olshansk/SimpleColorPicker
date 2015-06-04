@@ -1,0 +1,25 @@
+{
+  "name": "SimpleColorPicker",
+  "version": "0.1.0",
+  "summary": "A short description of SimpleColorPicker.",
+  "description": "                       An optional longer description of SimpleColorPicker\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SimpleColorPicker",
+  "license": "MIT",
+  "authors": {
+    "Daniel Olshansky": "dolshansky@twitter.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SimpleColorPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "SimpleColorPicker": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

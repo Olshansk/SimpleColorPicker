@@ -1,0 +1,6 @@
+framework module Pods_SimpleColorPicker_Tests {
+  umbrella header "Pods-SimpleColorPicker_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
