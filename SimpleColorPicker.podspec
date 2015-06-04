@@ -10,19 +10,14 @@
 Pod::Spec.new do |s|
   s.name             = "SimpleColorPicker"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SimpleColorPicker."
-  s.description      = <<-DESC
-                       An optional longer description of SimpleColorPicker
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SimpleColorPicker"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "A very simple, vertical, snapchat-like, color picker for iOS."
+  #s.description      = ""
+  s.homepage         = "https://github.com/olshansk/SimpleColorPicker"
+  s.screenshots      = "https://raw.githubusercontent.com/Olshansk/SimpleColorPicker/master/Example/SimpleColorPicker.gif"
   s.license          = 'MIT'
-  s.author           = { "Daniel Olshansky" => "dolshansky@twitter.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SimpleColorPicker.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Daniel Olshansky" => "olshansky.daniel@gmail.com" }
+  s.source           = { :git => "https://github.com/olshansk/SimpleColorPicker.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/olshansky'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -34,5 +29,4 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
