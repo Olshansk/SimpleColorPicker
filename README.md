@@ -22,7 +22,7 @@ pod "SimpleColorPicker"
 
 ## Author
 
-Daniel Olshansky, dolshansky@twitter.com
+Daniel Olshansky, olshansky.daniel@gmail.com
 
 ## License
 
