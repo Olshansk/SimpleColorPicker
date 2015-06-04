@@ -5,11 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/SimpleColorPicker.svg?style=flat)](http://cocoapods.org/pods/SimpleColorPicker)
 [![Platform](https://img.shields.io/cocoapods/p/SimpleColorPicker.svg?style=flat)](http://cocoapods.org/pods/SimpleColorPicker)
 
-## Usage
+## What is it
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+SimpleColorPicker is a very simple, vertical, snapchat-like, color picker for iOS.
 
-## Requirements
+![Alt text](https://github.com/Olshansk/SimpleColorPicker/blob/master/Example/SimpleColorPicker.gif "SimpleColorPicker Example")
 
 ## Installation
 
@@ -19,6 +19,28 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "SimpleColorPicker"
 ```
+
+## Usage
+
+### Import
+```objective-c
+#import "SimpleColorPicker.h"
+```
+
+### Initialize
+```objective-c
+SimpleColorPickerView *simpleColorPickerView = [[SimpleColorPickerView alloc] initWithFrame:yourRect withDidPickColorBlock:^(UIColor *color) {
+  // Your code here
+}];
+```
+
+### Add
+```objective-c
+  [yourView addSubview:simpleColorPickerView];
+```
+
+## Example Project
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Author
 
